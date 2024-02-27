@@ -52,7 +52,7 @@ st.subheader("Explore the locations of volcano types across this planet")
 # Add widget to show dataframe
 if st.checkbox("Show raw data"):
     st.subheader("Volcano dataset:")
-    st.dataframe(data=volc_df)
+    st.dataframe(data=df_volc)
 
 # Setting up columns
 left_column, middle_column, right_column = st.columns([2, 2, 1])
